@@ -1,12 +1,7 @@
 # DEPTH
 DEPTH evaluates the tumor heterogeneity level of each tumor sample based on gene expression profiles Heterogeneity score vignette
 
-Cite the code: 
-
-# DEPTH
-
-DEPTH evaluates the tumor heterogeneity level of each tumor sample based on gene expression profiles Heterogeneity score vignette
-
+Cite the code: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4094813.svg)](https://doi.org/10.5281/zenodo.4094813)
 
 ## Description
 
@@ -78,14 +73,17 @@ You can install the released version of ‘DEPTH’ with:
 if (!requireNamespace("devtools", quietly = TRUE))
     install.packages("devtools")
     
-devtools::install_github("WangX-Lab/DEPTH/DEPTH")
+devtools::install_github("Mengyuan-Li-Lab/DEPTH/DEPTH")
 ```
 
 ## Examples
 
 ```  
+exp=read.csv("DEPTH/exp.csv",header=F)
+match=read.csv("DEPTH/match.csv")
+
 library(DEPTH)
-DEPTH(exp, match) 
+DEPTH(exp, match)
 ```
 
 
