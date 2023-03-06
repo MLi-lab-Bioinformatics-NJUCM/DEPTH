@@ -73,7 +73,7 @@ You can install the released version of ‘DEPTH’ with:
 if (!requireNamespace("devtools", quietly = TRUE))
     install.packages("devtools")
     
-devtools::install_github("Mengyuan-Li-Lab/DEPTH/DEPTH")
+devtools::install_github("MLi-lab-Bioinformatics-NJUCM/DEPTH/DEPTH")
 ```
 
 ## Examples
